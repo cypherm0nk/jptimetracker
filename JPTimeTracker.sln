@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.UI", "JPTimeTracker\JPTimeTracker.UI.csproj", "{041A0ECD-C435-4D5B-85AD-17FE29786FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Application", "JPTimeTracker.Application\JPTimeTracker.Application.csproj", "{C9D01D79-C6B4-4AE0-A153-F0854F119270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Domain", "JPTimeTracker.Domain\JPTimeTracker.Domain.csproj", "{C23EC06C-67C2-4777-BE48-D0F2990B4164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Infrastructure", "JPTimeTracker.Infrastructure\JPTimeTracker.Infrastructure.csproj", "{F50ED2F0-EC88-4433-95B7-B07340E7C12E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041A0ECD-C435-4D5B-85AD-17FE29786FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A0ECD-C435-4D5B-85AD-17FE29786FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A0ECD-C435-4D5B-85AD-17FE29786FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A0ECD-C435-4D5B-85AD-17FE29786FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D01D79-C6B4-4AE0-A153-F0854F119270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D01D79-C6B4-4AE0-A153-F0854F119270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D01D79-C6B4-4AE0-A153-F0854F119270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D01D79-C6B4-4AE0-A153-F0854F119270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23EC06C-67C2-4777-BE48-D0F2990B4164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23EC06C-67C2-4777-BE48-D0F2990B4164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23EC06C-67C2-4777-BE48-D0F2990B4164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23EC06C-67C2-4777-BE48-D0F2990B4164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
