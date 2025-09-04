@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPTimeTracker.Domain\JPTimeTracker.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
