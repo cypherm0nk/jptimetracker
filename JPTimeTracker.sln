@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.UI", "JPTimeTracker\JPTimeTracker.UI.csproj", "{041A0ECD-C435-4D5B-85AD-17FE29786FCA}"
 EndProject
@@ -10,6 +10,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Domain", "JPTimeTracker.Domain\JPTimeTracker.Domain.csproj", "{C23EC06C-67C2-4777-BE48-D0F2990B4164}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Infrastructure", "JPTimeTracker.Infrastructure\JPTimeTracker.Infrastructure.csproj", "{F50ED2F0-EC88-4433-95B7-B07340E7C12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPTimeTracker.Tests", "JPTimeTracker.Tests\JPTimeTracker.Tests.csproj", "{F8693D8C-FB93-4885-A0C8-85EB07858D30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{E4277381-E4EC-47E5-9476-FE9C800F3DE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Core", "2.Core", "{D057539F-0624-43A9-8241-55C1F4DF7DE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infra", "3.Infra", "{C3532F70-DCC9-4F8C-9E5B-AAF301BB6659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tests", "4.Tests", "{759B5FA3-00A4-4B13-BF01-D66207B7BC34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +43,19 @@ Global
 		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50ED2F0-EC88-4433-95B7-B07340E7C12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8693D8C-FB93-4885-A0C8-85EB07858D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8693D8C-FB93-4885-A0C8-85EB07858D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8693D8C-FB93-4885-A0C8-85EB07858D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8693D8C-FB93-4885-A0C8-85EB07858D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{041A0ECD-C435-4D5B-85AD-17FE29786FCA} = {E4277381-E4EC-47E5-9476-FE9C800F3DE2}
+		{C9D01D79-C6B4-4AE0-A153-F0854F119270} = {D057539F-0624-43A9-8241-55C1F4DF7DE7}
+		{C23EC06C-67C2-4777-BE48-D0F2990B4164} = {D057539F-0624-43A9-8241-55C1F4DF7DE7}
+		{F50ED2F0-EC88-4433-95B7-B07340E7C12E} = {C3532F70-DCC9-4F8C-9E5B-AAF301BB6659}
+		{F8693D8C-FB93-4885-A0C8-85EB07858D30} = {759B5FA3-00A4-4B13-BF01-D66207B7BC34}
 	EndGlobalSection
 EndGlobal

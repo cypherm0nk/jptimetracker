@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace JPTimeTracker.Domain.Enums
 {
-    internal class TaskStatus
+    public enum TaskStatus
     {
+        Pending = 0,
+        InProgress = 1,
+        Completed = 2
     }
 }
